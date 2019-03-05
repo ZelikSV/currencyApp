@@ -1,9 +1,16 @@
-'use strict';
-
-function runBlock($log) {
+function runBlock($window, $rootScope) {
 	'ngInject';
-
-	$log.debug('Hello from run block!');
+	$rootScope.netActive = navigator.onLine;
+	$window.addEventListener('offline', function() {
+	$rootScope.$apply(function() {
+		$rootScope.netActive = false;
+	});
+	});
+	$window.addEventListener('online', function() {
+	$rootScope.$apply(function() {
+		$rootScope.netActive = true;
+	});
+	});
 }
 
 export default runBlock;
