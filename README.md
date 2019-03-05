@@ -1,4 +1,4 @@
-<h1 align="center">Currency Converter</h1>
+<h1 align="center">Currency App</h1>
 <br>
 <br>
  <h3 align="center">👋🏼 Let's start</h3>
@@ -18,4 +18,5 @@
 
 <p>When you will finish your project, you can get folder build and use it👋🏼</p>
 
-View an example https://zeliksv.github.io/converter/
+`npm build`
+
