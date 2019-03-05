@@ -9,9 +9,8 @@ import coreModule from './core/core.module';
 import indexComponents from './index.components';
 import indexRoutes from './index.routes';
 
-
 const App = angular.module(
-  "smallApp", [
+  "myApp", [
     // plugins
     uiRouter,
     "ngMessages", 
@@ -24,10 +23,9 @@ const App = angular.module(
     indexComponents.name,
 
     // routes
-    indexRoutes.name,
+    indexRoutes.name
 
     // pages
-
   ]
 );
 

@@ -1,6 +1,7 @@
+
 const shared = angular.module('core.shared', []);
 
-import netChecker from './directives/net-checker/netChecker.directive';
+import netChecker from './directives/net-checker/net-checker';
 
 import constants from './services/constants';
 import currencyService from './services/resolver.provider';

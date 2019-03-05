@@ -1,11 +1,10 @@
 @import './reset.scss';
 
 body{
-    background: url('../img/bg.png') no-repeat 50% 0% / cover;
+    background: url('../../images/bg.png') no-repeat 50% 0% / cover;
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
-
 .app-wrapper{
     width: 600px;
     padding: 150px 0;
@@ -279,10 +278,11 @@ background: rgba(255, 255, 255, .8);
     font-size: 0;
 }
 
+
     .page{
         width: 80%;
         margin: 0 auto;
-        padding: 50px 0;
+        padding: 100px 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -320,7 +320,7 @@ background: rgba(255, 255, 255, .8);
         }
     }
     .weather-block{
-        background: url('../img/weather.jpg') no-repeat 0% 0% /cover;
+        background: url('../../images/weather.jpg') no-repeat 0% 0% /cover;
         &:before{
             top: 0;
             border-radius: 5px 5px 0 0;
@@ -359,11 +359,9 @@ background: rgba(255, 255, 255, .8);
             text-align: center;
             margin-bottom: 40px;
             .img-part{
-                width: 40%;
-                img{
-                    width: 100%;
-                    height: auto;
-                }
+                width: 200px;
+                height: 150px;
+                background: url('../../images/bank4.jpg') no-repeat 50% 50% / cover;
             }
                 .text-part{
                     width: 50%;
